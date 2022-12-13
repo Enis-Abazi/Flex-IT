@@ -1860,3 +1860,15 @@ footer .footer-bottom .row-bottom .col h3::after {
    
    }
 }
+@media only screen and (max-width:350px) { 
+  html , body { 
+    overflow-x: hidden;
+  }
+  * { 
+    padding: 0;
+    margin: 0;
+  }
+  ::-webkit-scrollbar { 
+    display: none;
+  }
+}
