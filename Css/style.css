@@ -3,7 +3,7 @@
     background-color: transparent;
     font-family: "Bold" , sans-serif;
     background-color: #000;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
 * { 
     padding: 0;
@@ -2199,7 +2199,7 @@ footer .footer-bottom .row-bottom .col h3::after {
     display: initial;
   }
   .blog { 
-    height: 115vh;
+    height: 130vh;
   }
   .blog header .row-header .col-header .header-nav { 
     display: none;
@@ -2249,7 +2249,7 @@ footer .footer-bottom .row-bottom .col h3::after {
     row-gap: 20px;
   }
   .services .row .col { 
-    height: 40vh;
+    height: fit-content;
   }
   .services .about { 
     padding: 20px 0;
