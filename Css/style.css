@@ -2335,6 +2335,12 @@ footer .footer-bottom .row-bottom .col h3::after {
   .quotes .content { 
     padding: 15px 0;
   }
+  .quotes .center h3::before { 
+    left: 240px;
+  }
+  .quotes .center h3::after { 
+    left: 36%;
+  }
   .pricing .row .col { 
     width: 100%;
   }
